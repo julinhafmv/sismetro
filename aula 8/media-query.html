@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Aula de media query</title>
+    <style>
+        #coluna1 {
+            background-color: rgba(188, 125, 248, 0.849);
+        }
+
+        #coluna2 {
+            background-color: rgb(206, 58, 206);
+        }
+
+        .coluna {
+            width: 100%;
+            float: left;
+        }
+
+        #coluna3 {
+            background-color: rgb(170, 62, 141);
+        }
+
+        @media (min-width: 800px) {
+            .coluna {
+                width: 50%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .coluna {
+                width: 33.3%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="coluna1" class="coluna">
+        COLUNA UM
+    </div>
+    <div id="coluna2" class="coluna">
+        COLUNA DOIS
+    </div>
+
+    <div id="coluna3" class="coluna">
+        COLUNA TRêS
+    </div>
+
+</body>
+
+</html>
