@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.textos-link {
+    text-align: center;
+}
+
+#coluna1 {
+ background-color: blue;
+ 
+  @media (min-widht: 1200px) {
+    .coluna 
+    width: 33.3%
+  }
+}
