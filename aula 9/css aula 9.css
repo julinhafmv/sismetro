@@ -1,4 +1,6 @@
 header {
+    background: rgb(21,14,133);
+background: linear-gradient(86deg, rgba(21,14,133,1) 0%, rgba(32,48,194,1) 23%, rgba(1,27,128,1) 100%);
     display: flex;
     justify-content: center;
 }
@@ -7,11 +9,22 @@ header {
     text-align: center;
 }
 
-#coluna1 {
- background-color: blue;
- 
-  @media (min-widht: 1200px) {
-    .coluna 
-    width: 33.3%
-  }
+.titulo1 {
+    text-align: left;
+}
+
+.titulo2 {
+    text-align: center;
+}
+
+.coluna {
+    width: 100%;
+    float: left;
+}
+
+@media (min-width: 800px) {
+    
+    .coluna{
+        width: 50;
+    } 
 }
