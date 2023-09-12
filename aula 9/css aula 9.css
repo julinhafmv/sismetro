@@ -5,16 +5,21 @@ background: linear-gradient(86deg, rgba(21,14,133,1) 0%, rgba(32,48,194,1) 23%, 
     justify-content: center;
 }
 
-.textos-link {
-    text-align: center;
+.logo {
+    display: flex;
+    justify-content: center;
 }
 
-.titulo1 {
-    text-align: left;
+.image {
+    width: 25%;
 }
 
-.titulo2 {
-    text-align: center;
+.textoslink {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 30px;
 }
 
 .coluna {
@@ -23,8 +28,13 @@ background: linear-gradient(86deg, rgba(21,14,133,1) 0%, rgba(32,48,194,1) 23%, 
 }
 
 @media (min-width: 800px) {
-    
-    .coluna{
-        width: 50;
-    } 
+    .coluna {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .coluna {
+        width: 25%;
+    }
 }
